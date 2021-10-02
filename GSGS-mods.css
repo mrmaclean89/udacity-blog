@@ -1,0 +1,52 @@
+.box {
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 182, 193);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 100px 1fr 50px;
+    grid-template-areas: "hd hd"
+                         "mn sd"
+                         "ft ft";
+}
+
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+nav {
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.navItems {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.navItems li {
+    text-align: center;
+    margin: auto auto auto 0; 
+    list-style: none;
+    width: 100px;
+}
