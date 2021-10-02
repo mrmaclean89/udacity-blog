@@ -1,2 +1,2 @@
 # udacity-blog
-udacity blog project (GSGS)
+Udacity Blog Project (GSGS)
