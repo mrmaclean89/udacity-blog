@@ -1,6 +1,5 @@
-/*
+/* Consolidation Page for CSS modules */
 
-
-
-
-*/
+@import "GSGS-layout.css";
+@import "GSGS-mods.css";
+@import "GSGS-state.css";
