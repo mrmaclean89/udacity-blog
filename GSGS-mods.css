@@ -4,13 +4,13 @@
     border: 1px solid #000;
     padding: 5px;
     margin: 5px;
-    background-color: rgb(255, 182, 193);
+    background-color: rgb(187, 189, 186);
 }
 
 .container {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    grid-template-rows: 100px 1fr 50px;
+    grid-template-rows: 50px 1fr 50px;
     grid-template-areas: "hd hd"
                          "mn sd"
                          "ft ft";
@@ -18,10 +18,9 @@
 
 
 button {
-    padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
-    border-radius: 50px;
-    border: none;
+    padding: 4px 15px;
+    background-color: rgb(14, 177, 218);
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -37,7 +36,7 @@ nav {
 }
 
 .navItems {
-    border: 1px solid green;
+    border: none;
     display: flex;
     flex-direction: row;
     justify-content: center; 
@@ -54,9 +53,8 @@ nav {
 }
 
 .avatar {
-    background: #8a8a8a;
-    padding: 2px;
-    border-radius: 50%;
+    vertical-align: auto;
     width: 50px;
-    margin: 20px auto 0;
+    height: 50px;
+    border-radius: 50%;
 }
